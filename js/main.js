@@ -30,6 +30,18 @@
     });
   });
 
+  var copyBtn = document.getElementById('copy-bio');
+  var copyStatus = document.querySelector('.copy-status');
+  copyBtn.addEventListener('click', function () {
+    var text = document.getElementById('short-bio').textContent.trim();
+    var done = function () { copyStatus.textContent = 'Copied'; setTimeout(function () { copyStatus.textContent = ''; }, 2000); };
+    if (navigator.clipboard) {
+      navigator.clipboard.writeText(text).then(done, function () { copyStatus.textContent = 'Select and copy the text above'; });
+    } else {
+      copyStatus.textContent = 'Select and copy the text above';
+    }
+  });
+
   var navAnchors = document.querySelectorAll('.nav-links a');
   if ('IntersectionObserver' in window) {
     var observer = new IntersectionObserver(function (entries) {

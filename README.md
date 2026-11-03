@@ -2,12 +2,12 @@
 
 Static single-page portfolio for Dr. Sakshi Bhati, Assistant Professor of Public Relations & Leadership, Communication Studies, Southern Illinois University Carbondale.
 
-Plain HTML/CSS/JS, no build step. Uses SIU maroon (`#720000`) as the primary color.
+Plain HTML/CSS/JS, no build step. Designed as a personal-brand / media-kit site for a PR professor: positioning headline, proof-point stats bar, research message pillars, press-style award feature, a copy-ready press bio, and a speaking & media call to action. Uses SIU maroon (`#720000`) with white and warm neutrals.
 
 ```
 index.html      page content (all sections)
 css/styles.css  styles (colors defined as CSS variables at the top)
-js/main.js      mobile nav, publication sorting, active-section highlighting
+js/main.js      mobile nav, publication sorting, copy-bio button, active-section highlighting
 assets/         images (add the portrait here)
 .nojekyll       tells GitHub Pages to serve files as-is
 ```
@@ -29,7 +29,9 @@ Search `index.html` for `PLACEHOLDER`:
   `<img src="assets/sakshi-bhati.jpg" alt="Portrait of Dr. Sakshi Bhati">`.
 - **Experience** — the highlighted (yellow) entry in the Experience list; add roles from LinkedIn.
 
-Citation counts are a snapshot; update the numbers in the Publications section periodically.
+- **Brand copy to review**: the hero headline ("Communication that includes everyone."), section headlines, and the press-kit short bio were written for this site from her SIU bio. Confirm or adjust them.
+
+Citation counts and the "9 publications" stat are snapshots; update the numbers in the Publications section periodically.
 
 ## Local development
 
