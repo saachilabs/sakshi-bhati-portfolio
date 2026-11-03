@@ -23,13 +23,9 @@ assets/         images (add the portrait here)
 | Experience | LinkedIn — **could not be fetched automatically** (login wall) |
 | Harvard shield (`assets/harvard-shield.svg`) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Harvard_shield-University.svg), public domain file; Harvard marks are trademarks, used here only to identify the certification issuer |
 
-## Placeholders to fill in
-
-Search `index.html` for `PLACEHOLDER`:
+## Content to review
 
 - **Photo** is at `assets/sakshi-bhati.jpg` (square). Replace the file to update it; a higher-resolution square image (600px+) will look sharper.
-- **Experience** — the highlighted (yellow) entry in the Experience list; add roles from LinkedIn.
-
 - **Brand copy to review**: the hero headline ("Communication that includes everyone."), section headlines, and the press-kit short bio were written for this site from her SIU bio. Confirm or adjust them.
 
 

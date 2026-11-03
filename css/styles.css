@@ -107,7 +107,6 @@ p { margin: 0 0 1rem; }
 .timeline { list-style: none; padding: 0; margin: 0; }
 .timeline li { display: grid; grid-template-columns: 80px 1fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); line-height: 1.5; }
 .timeline .year { font-weight: 700; color: var(--maroon); font-size: .9rem; }
-.placeholder-item { background: #fff8e1; outline: 1px dashed #c9a227; padding: 1rem !important; color: #6b5a1f; }
 
 /* Expertise */
 .expertise { margin-top: 4rem; }
