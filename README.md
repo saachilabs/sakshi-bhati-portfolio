@@ -19,7 +19,9 @@ assets/         images (add the portrait here)
 | Bio, title, contact, education | [SIU faculty profile](https://faculty.siu.edu/profiles/a-c/bhati-sakshi.php) |
 | Publications, citation metrics | [Google Scholar](https://scholar.google.com/citations?user=x6gjq2cAAAAJ&hl=en) |
 | Top Paper Award | [K-State news](https://www.k-state.edu/media-communication/about/news/Bhati-Top-Paper-Award.html) |
-| Experience | [LinkedIn](https://www.linkedin.com/in/sakshi-bhati/) — **could not be fetched automatically** (login wall) |
+| Certification, skills, SIU awards | Provided from her [LinkedIn](https://www.linkedin.com/in/sakshi-bhati/) |
+| Experience | LinkedIn — **could not be fetched automatically** (login wall) |
+| Harvard shield (`assets/harvard-shield.svg`) | [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Harvard_shield-University.svg), public domain file; Harvard marks are trademarks, used here only to identify the certification issuer |
 
 ## Placeholders to fill in
 
