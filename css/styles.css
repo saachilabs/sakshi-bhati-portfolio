@@ -102,7 +102,7 @@ p { margin: 0 0 1rem; }
 /* About */
 .about-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.4fr); gap: 4rem; }
 .prose p { color: #3e3838; }
-.credentials { display: grid; grid-template-columns: 1fr 1fr; gap: 4rem; margin-top: 4rem; }
+.credentials { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem; margin-top: 4rem; }
 .cred-col h3 { font-size: 1.1rem; padding-bottom: .75rem; border-bottom: 2px solid var(--ink); }
 .timeline { list-style: none; padding: 0; margin: 0; }
 .timeline li { display: grid; grid-template-columns: 80px 1fr; gap: 1rem; padding: 1rem 0; border-bottom: 1px solid var(--line); line-height: 1.5; }
@@ -162,9 +162,9 @@ p { margin: 0 0 1rem; }
 .award-card p:last-child { margin: 0; color: var(--muted); }
 
 /* Teaching */
-.cert { display: flex; align-items: center; gap: 1.25rem; margin-top: 2rem; padding: 1.25rem 1.5rem; background: var(--sand); border: 1px solid var(--line); border-radius: var(--radius); max-width: 560px; }
+.cert { display: flex; align-items: center; gap: 1.25rem; margin-top: 1.25rem; padding: 1.25rem 1.5rem; background: var(--sand); border: 1px solid var(--line); border-radius: var(--radius); max-width: 560px; }
 .cert-logo { flex: none; width: 56px; height: auto; }
-.cert h3 { font-size: 1.25rem; margin-bottom: .2rem; }
+.cert h3 { font-size: 1.25rem; margin-bottom: .2rem; padding-bottom: 0; border-bottom: 0; }
 .cert .press-meta { margin-bottom: .3rem; line-height: 1.5; }
 .cert-issuer { margin: 0; color: var(--muted); font-size: .95rem; }
 
