@@ -25,8 +25,7 @@ assets/         images (add the portrait here)
 
 Search `index.html` for `PLACEHOLDER`:
 
-- **Photo** — save a portrait as `assets/sakshi-bhati.jpg` and replace the `.photo-placeholder` div with
-  `<img src="assets/sakshi-bhati.jpg" alt="Portrait of Dr. Sakshi Bhati">`.
+- **Photo** is at `assets/sakshi-bhati.jpg` (square). Replace the file to update it; a higher-resolution square image (600px+) will look sharper.
 - **Experience** — the highlighted (yellow) entry in the Experience list; add roles from LinkedIn.
 
 - **Brand copy to review**: the hero headline ("Communication that includes everyone."), section headlines, and the press-kit short bio were written for this site from her SIU bio. Confirm or adjust them.

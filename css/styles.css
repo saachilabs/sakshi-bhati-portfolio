@@ -72,9 +72,10 @@ p { margin: 0 0 1rem; }
 .hero-lede { font-size: 1.2rem; color: #3e3838; max-width: 600px; margin-bottom: 2rem; }
 .hero-links { display: flex; flex-wrap: wrap; gap: .85rem; }
 .hero-photo { justify-self: center; text-align: center; }
-.photo-frame { position: relative; padding: 0 0 18px 18px; }
+.photo-frame { position: relative; display: inline-block; padding: 0 0 18px 18px; }
+.photo-frame img { object-position: center top; }
 .photo-frame::before { content: ""; position: absolute; left: 0; bottom: 0; width: calc(100% - 18px); height: calc(100% - 18px); border: 2px solid var(--maroon); border-radius: var(--radius); }
-.photo-placeholder, .photo-frame img { position: relative; width: 320px; height: 380px; border-radius: var(--radius); object-fit: cover; }
+.photo-placeholder, .photo-frame img { position: relative; width: 340px; height: 340px; border-radius: var(--radius); object-fit: cover; }
 .photo-placeholder { background: linear-gradient(160deg, var(--maroon), var(--maroon-ink)); color: #fff; display: flex; flex-direction: column; align-items: center; justify-content: center; }
 .photo-placeholder span { font: 700 5rem/1 var(--serif); }
 .photo-placeholder small { font-size: .8rem; letter-spacing: .1em; text-transform: uppercase; opacity: .75; margin-top: .75rem; }
@@ -195,7 +196,7 @@ p { margin: 0 0 1rem; }
   .nav-links a.nav-cta { text-align: center; margin-top: .5rem; }
   .hero { padding: 3rem 0; }
   .hero::after { display: none; }
-  .photo-placeholder, .photo-frame img { width: 220px; height: 260px; }
+  .photo-placeholder, .photo-frame img { width: 240px; height: 240px; }
   .section { padding: 4rem 0; }
   .press-body, .press-quote, .featured-pub { padding: 1.75rem; }
   .pubs li { padding-left: 2.4rem; }
