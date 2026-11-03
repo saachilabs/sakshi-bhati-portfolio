@@ -1,0 +1,99 @@
+{
+  "source": "https://scholar.google.com/citations?user=x6gjq2cAAAAJ&hl=en&cstart=0&pagesize=100",
+  "citations": 86,
+  "h_index": 4,
+  "i10_index": 1,
+  "publications": [
+    {
+      "id": "x6gjq2cAAAAJ:Tyk-4Ss8FVUC",
+      "title": "Digital Touchpoints: Investigating Contact Page Accessibility and Visual Authenticity within Medical Tourism Health Websites",
+      "authors": "A. Mason, E. Spencer, K. Livingston, T. Meyers, S. Bhati, H. Akram",
+      "prefix": "",
+      "venue": "",
+      "details": "",
+      "year": 2026,
+      "citations": 0
+    },
+    {
+      "id": "x6gjq2cAAAAJ:zYLM7Y9cAGgC",
+      "title": "Accessibility Disclosure Statements: Best Practices for Documenting Inclusive and Accessible Web-Based Research Design",
+      "authors": "A. Mason, E. Spencer, P. Liu, K. Livingston, S. Bhati, A. Ashmore, T. A. Spencer, et al.",
+      "prefix": "",
+      "venue": "",
+      "details": "",
+      "year": 2025,
+      "citations": 2
+    },
+    {
+      "id": "x6gjq2cAAAAJ:d1gkVwhDpl0C",
+      "title": "Identifying accessibility improvement opportunities for global environmental communication websites",
+      "authors": "A. M. Mason, J. Compton, S. Bhati",
+      "prefix": "",
+      "venue": "Western Journal of Communication",
+      "details": "88(1), 68–82",
+      "year": 2024,
+      "citations": 8
+    },
+    {
+      "id": "x6gjq2cAAAAJ:IjCSPb-OGe4C",
+      "title": "Analyzing the message complexity, signal words, and readability of medical tourism warning messages",
+      "authors": "A. Mason, S. Bhati",
+      "prefix": "",
+      "venue": "",
+      "details": "",
+      "year": 2024,
+      "citations": 2
+    },
+    {
+      "id": "x6gjq2cAAAAJ:UeHWp8X0CEIC",
+      "title": "Let’s Talk Mental Health: Analysis of Indian Immigrant Women’s Culturally Centered Mental Health Perceptions and Identifying Modifiers in Interventions",
+      "authors": "S. Bhati",
+      "prefix": "Doctoral dissertation, Kansas State University",
+      "venue": "",
+      "details": "",
+      "year": 2024,
+      "citations": 2
+    },
+    {
+      "id": "x6gjq2cAAAAJ:9yKSN-GCB0IC",
+      "title": "Ready.gov: Who’s ready, really? Examining principles of inclusivity and universal design in emergency management and disaster preparedness public information websites",
+      "authors": "A. Mason, S. Bhati",
+      "prefix": "",
+      "venue": "Journal of Emergency Management and Disaster Communications",
+      "details": "4(01), 77–97",
+      "year": 2023,
+      "citations": 6
+    },
+    {
+      "id": "x6gjq2cAAAAJ:2osOgNQ5qMEC",
+      "title": "Learning from Death: Health Education Considerations for Medical Tourists, Caregiving Companions, and Medical Tourism Providers",
+      "authors": "A. Mason, S. Bhati, R. Jiang, E. A. Spencer",
+      "prefix": "Book chapter",
+      "venue": "Novel Research Aspects in Medicine and Medical Science",
+      "details": "Vol. 9, 157–183",
+      "year": 2023,
+      "citations": 0
+    },
+    {
+      "id": "x6gjq2cAAAAJ:u5HHmVD_uO8C",
+      "title": "Disabilities and the digital divide: assessing web accessibility, readability, and mobility of popular health websites",
+      "authors": "A. M. Mason, J. Compton, S. Bhati",
+      "prefix": "",
+      "venue": "Journal of Health Communication",
+      "details": "26(10), 667–674",
+      "year": 2021,
+      "citations": 61
+    },
+    {
+      "id": "x6gjq2cAAAAJ:u-x6o8ySG0sC",
+      "title": "Medical tourism patient mortality: considerations from a 10-year review of global news media representations",
+      "authors": "A. Mason, S. Bhati, R. Jiang, E. A. Spencer",
+      "prefix": "",
+      "venue": "Global Issues and Innovative Solutions in Healthcare, Culture, and the Environment",
+      "details": "",
+      "year": 2020,
+      "citations": 5
+    }
+  ],
+  "fetched": "2026-11-03"
+}

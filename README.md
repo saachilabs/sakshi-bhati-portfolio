@@ -32,7 +32,19 @@ Search `index.html` for `PLACEHOLDER`:
 
 - **Brand copy to review**: the hero headline ("Communication that includes everyone."), section headlines, and the press-kit short bio were written for this site from her SIU bio. Confirm or adjust them.
 
-Citation counts and the "9 publications" stat are snapshots; update the numbers in the Publications section periodically.
+
+
+## Google Scholar sync
+
+Citation counts, h-index, i10-index, the publication count, the "most cited" feature and the publication list are refreshed automatically from her [Google Scholar profile](https://scholar.google.com/citations?user=x6gjq2cAAAAJ&hl=en).
+
+- `.github/workflows/update-scholar.yml` runs `scripts/update_scholar.py` every Monday and Thursday (and on demand: **Actions → Update Google Scholar data → Run workflow**). It commits only when something changed, and GitHub Pages redeploys.
+- The script rewrites only the marked parts of `index.html` (`data-scholar="..."` elements and `<!-- scholar:...:start/end -->` blocks), using the same markup as the rest of the page. Don't hand-edit inside those markers; edits there are overwritten.
+- `data/scholar.json` holds the last successful fetch.
+- **Formatting:** new papers are formatted automatically (initials like `A. M. Mason`, her name in bold, journal in title case and italics, `26(10), 667–674`). To fix a title, venue or label, add an entry to `data/publication-overrides.json` keyed by the Scholar citation id (shown in the workflow log as `New publication: ... (id ...)`). Set `"hide": true` to drop an entry.
+- **When Scholar blocks the request:** Scholar has no API and sometimes serves a CAPTCHA to GitHub's servers. The run then logs a warning and changes nothing, so the site keeps the last good numbers; the "updated" date under the publication list shows when data was last refreshed. Scraping Scholar is against its terms of service; it is used here at low volume (two requests a week).
+
+Run it locally with `python3 scripts/update_scholar.py` (Python 3 standard library only).
 
 ## Local development
 

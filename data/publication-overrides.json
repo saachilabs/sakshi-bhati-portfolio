@@ -1,0 +1,26 @@
+{
+  "_comment": "Hand-edited formatting for Google Scholar entries, keyed by Scholar citation id (the citation_for_view value). Any field here replaces what Scholar returns: title, authors (plain text, comma separated), venue (journal/book name, shown in italics), details (volume/issue/pages), prefix (text before the venue, e.g. 'Book chapter'), hide (true to omit). Citation counts and years always come from Scholar.",
+  "x6gjq2cAAAAJ:9yKSN-GCB0IC": {
+    "title": "Ready.gov: Who’s ready, really? Examining principles of inclusivity and universal design in emergency management and disaster preparedness public information websites",
+    "venue": "Journal of Emergency Management and Disaster Communications",
+    "details": "4(01), 77–97"
+  },
+  "x6gjq2cAAAAJ:u-x6o8ySG0sC": {
+    "venue": "Global Issues and Innovative Solutions in Healthcare, Culture, and the Environment",
+    "details": ""
+  },
+  "x6gjq2cAAAAJ:UeHWp8X0CEIC": {
+    "prefix": "Doctoral dissertation, Kansas State University",
+    "venue": "",
+    "details": ""
+  },
+  "x6gjq2cAAAAJ:2osOgNQ5qMEC": {
+    "prefix": "Book chapter",
+    "venue": "Novel Research Aspects in Medicine and Medical Science",
+    "details": "Vol. 9, 157–183"
+  },
+  "x6gjq2cAAAAJ:Tyk-4Ss8FVUC": {
+    "venue": "",
+    "details": ""
+  }
+}
